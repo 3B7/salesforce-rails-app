@@ -1,0 +1,16 @@
+<div class="row" style="margin-top: 20px">
+  <div class="col-md-4">
+    <p class="pull-right"><%= current_user_image('big') %></p>
+  </div>
+  <div class="col-md-8">
+    <table class="table">
+      <tbody>
+        <tr><td>Name</td><td><%= current_user.name %></td></tr>
+        <tr><td>Email</td><td><%= current_user.email %></td></tr>
+        <tr><td>Specialty</td><td><%= @producers.first.Vertical__c %></td></tr>
+        <tr><td>Subsidiaries</td><td><%= @producers.first.Subsidiary_trigger_list__c %></td></tr>
+        <tr><td>Address</td><td><%= address_renderer(@producers.first.Address__c, @producers.first.City__c, @producers.first.State__c, @producers.first.Zip__c) %></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>

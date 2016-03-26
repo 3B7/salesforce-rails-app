@@ -1,0 +1,42 @@
+<div class="container">
+
+  <% if User.authorized_user_ids.include?(current_user.id) %>
+    <p class="text-center margin-top-12"><%= link_to 'New Release Note', new_release_note_path, :class=>'btn btn-default btn-xs' %></p>
+  <% end %>
+
+  <% @notes.in_groups_of(3, false).each do |n| %>
+    <div class="row">
+      <% if n[0] %>
+        <div class="col-md-4">
+          <div class="box-shadow">
+            <h2>Version <small><%= n[0].version_number %></small></h2><h4><small>- ADMIN</small></h4>
+            <hr>
+            <p><%= n[0].body.html_safe %></p>
+          </div>
+        </div>
+      <% end %>
+
+      <% if n[1] %>
+        <div class="col-md-4">
+          <div class="box-shadow">
+            <h2>Version <small><%= n[1].version_number %></small></h2><h4><small>- ADMIN</small></h4>
+            <hr>
+            <p><%= n[1].body.html_safe %></p>
+          </div>
+        </div>
+      <% end %>
+
+      <% if n[2] %>
+        <div class="col-md-4">
+          <div class="box-shadow">
+            <h2>Version <small><%= n[2].version_number %></small></h2><h4><small>- ADMIN</small></h4>
+            <hr>
+            <p><%= n[2].body.html_safe %></p>
+          </div>
+        </div>
+      <% end %>
+
+    </div>    
+  <% end %>
+  <div class="clear"></div>
+</div>

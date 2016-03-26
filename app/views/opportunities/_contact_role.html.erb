@@ -1,0 +1,27 @@
+<% if @contact_role.first.nil? == false  %>
+  <div class="row">
+    <blockquote class="lightyellow">
+      <p>Contact Role</p>
+    </blockquote>
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <td>Contact Name</td>
+          <td>Account Name</td>
+          <td>Email</td>
+          <td>Phone</td>
+          <td>Role</td>
+          <td>Primary</td>
+        </tr>
+        <tr>
+          <td><%= @contact_role.first.Contact.Name %></td>
+          <td><%= @contact_role.first.Contact.Account.Name %></td>
+          <td><%= @contact_role.first.Contact.Email %></td>
+          <td><%= @contact_role.first.Contact.Phone %></td>
+          <td><%= @contact_role.first.Role %></td>
+          <td class="text-center"><%= boolean_renderer(@contact_role.first.IsPrimary) %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<% end %>

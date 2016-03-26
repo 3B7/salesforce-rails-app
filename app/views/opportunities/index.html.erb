@@ -1,0 +1,46 @@
+<table class="table table-bordered table-condensed" style="margin-top:25px;">
+  <tr>
+    <th></th>
+    <th>Address</th>
+    <th>Start Date</th>
+    <th>Due Date</th>
+    <th>Amount</th>
+    <th>Appraiser</th>
+    <th>Inspector</th>
+    <th>Stage</th>
+  </tr>
+  <% @opportunities.each do |opp| %>
+    <tr>
+      <td><%= link_to 'Show', "/opportunities/#{opp.Id}", :class=>'btn btn-default btn-xs btn-block' %></td>
+      <td><%= address_renderer(opp.Street__r.try(:Name), opp.try(:City__c), opp.try(:State__c), opp.try(:Zip__c)).html_safe %></td>
+      <td><%= Time.safe_parse_and_format(opp.Start_Date_del__c, "%a %b %e %Y") %></td>
+      <td><%= Time.safe_parse_and_format(opp.Due_Date_del__c, "%a %b %e %Y") %></td>
+      <td><%= amount_renderer(opp.Amount, opp.Inspector__r.try(:Email__c), opp.Appraiser__r.try(:Email__c)) %></td>
+      <td><%= opp.Appraiser__r.try(:Name) %></td>
+      <td><%= opp.Inspector__r.try(:Name) %></td>
+      <td><%= opp.StageName %></td>
+    </tr>
+  <% end %>
+</table>
+
+<table class="table table-bordered table-condensed" style="margin-top:25px;">
+  <caption class="text-center">Teammates Opportunities</caption>
+  <tr>
+    <th>Address</th>
+    <th>Start Date</th>
+    <th>Due Date</th>
+    <th>Appraiser</th>
+    <th>Inspector</th>
+    <th>Stage</th>
+  </tr>
+  <% @teammates_opps.each do |opp| %>
+    <tr>
+      <td><%= address_renderer(opp.Street__r.try(:Name), opp.try(:City__c), opp.try(:State__c), opp.try(:Zip__c)).html_safe %></td>
+      <td><%= Time.safe_parse_and_format(opp.Start_Date_del__c, "%a %b %e %Y") %></td>
+      <td><%= Time.safe_parse_and_format(opp.Due_Date_del__c, "%a %b %e %Y") %></td>
+      <td><%= opp.Appraiser__r.try(:Name) %></td>
+      <td><%= opp.Inspector__r.try(:Name) %></td>
+      <td><%= opp.StageName %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,21 @@
+<% if @job_property_assignments.first.nil? == false  %>
+  <div class="row">
+    <blockquote class="lightyellow">
+      <p>Job Property Assignments</p>
+    </blockquote>
+    <table class="table table-bordered">
+      <tbody>
+        <tr>
+          <td>Job Property Assignment Name</td>
+          <td>Job Property Tag</td>
+        </tr>
+        <% @job_property_assignments.each do |job_prop| %>
+          <tr>
+            <td><%= job_prop.Name %></td>
+            <td><%= job_prop.Job_Property_Tag__r.Name  %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+<% end %>

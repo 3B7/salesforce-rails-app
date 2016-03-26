@@ -1,0 +1,6 @@
+<% if @success == true %>
+  $('#news_notice').show("slow").html("FETCHED! Redirecting....");
+  document.location.href = '/opportunities'
+<% else %>
+  $('#news_notice').show("slow").html("System could not retrived relevant information. Administrators have been notified!");
+<% end %>

@@ -1,0 +1,136 @@
+<div class="container" style="margin-top:25px">
+  <div class="row">
+    <blockquote class="lightsteelblue">
+      <p>Detail</p>
+    </blockquote>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Name</td><td><b><%= @opp.first.Name %></b></td></tr>
+          <tr><td>Account</td><td><%= @opp.first.Account.Name %></td></tr>
+          <tr><td>Type</td><td><%= @opp.first.Type %></td></tr>
+          <tr><td>Subsidiary</td><td><%= @opp.first.Subsidiary__r.try(:Name) %></td></tr>
+          <tr><td>Brand Assignments</td><td><%= @opp.first.dev_brand_assignment__c %></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Opportunity Owner</td><td><%= @opp.first.Owner.Name %></td></tr>
+          <tr><td>Stage</td><td><%= @opp.first.StageName %></td></tr>
+          <tr><td>Amount</td><td><%= number_to_currency(@opp.first.Amount) %></td></tr>
+          <tr><td>Job Property Assignments</td><td><%= @opp.first.job_property_assignments_trigger_list__c %></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <blockquote class="lightgoldenrodyellow">
+      <p>Property Info</p>
+    </blockquote>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Street</td><td><%= @opp.first.Street__r.try(:Name) %></td></tr>
+          <tr><td>City</td><td><%= @opp.first.City__c %></td></tr>
+          <tr><td>County</td><td><%= @opp.first.County__c %></td></tr>
+          <tr><td>State</td><td><%= @opp.first.State__c %></td></tr>
+          <tr><td>Zip</td><td><%= @opp.first.Zip__c %></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Portfolio</td><td><%= @opp.first.Portfolio__c ? 'YES' : 'NO' %></td></tr>
+          <tr><td>Proposed/Existing</td><td><%= @opp.first.Proposed_Existing__c %></td></tr>
+          <tr><td># of Opportunities</td><td><%= @opp.first.of_opportunities__c %></td></tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+    <blockquote class="lightsteelblue">
+      <p>Job Info</p>
+    </blockquote>
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Start Date</td><td><%= Time.safe_parse_and_format(@opp.first.Start_Date_del__c, "%a %b %e %Y") %></td></tr>
+          <tr><td>Due Date</td><td><%= Time.safe_parse_and_format(@opp.first.Due_Date_del__c, "%a %b %e %Y %l:%M%P") %></td></tr>
+          <tr><td>Inspection Time</td><td><%= Time.safe_parse_and_format(@opp.first.Inspection_Time_del__c, "%a %b %e %Y %l:%M%P") %></td></tr>
+          <tr><td>Inspector Address</td><td><%= address_renderer(@opp.first.Inspector__r.try(:Address__c), @opp.first.Inspector__r.try(:City__c), @opp.first.Inspector__r.try(:State__c), @opp.first.Inspector__r.try(:Zip__c)) %></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+    <blockquote class="lightsteelblue">
+      <p>Producer Assignment</p>
+    </blockquote>
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Appraiser</td><td><%= @opp.first.Appraiser__r.try(:Name) %></td></tr>
+          <tr><td>Inspector</td><td><%= @opp.first.Inspector__r.try(:Name) %></td></tr>
+          <tr><td>Reviewer</td><td><%= @opp.first.Reviewer__r.try(:Name) %></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <blockquote class="lightgoldenrodyellow">
+      <p>Job Task Board</p>
+    </blockquote>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>Zoning</td><td class="text-center"><%= boolean_renderer(@opp.first.Zoning__c) %></td></tr>
+          <tr><td>Demo</td><td class="text-center"><%= boolean_renderer(@opp.first.Demo__c) %></td></tr>
+          <tr><td>Fema</td><td class="text-center"><%= boolean_renderer(@opp.first.Fema__c) %></td></tr>
+          <tr><td>NDC</td><td class="text-center"><%= boolean_renderer(@opp.first.NDC__c) %></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <tbody>
+          <tr><td>AFC</td><td class="text-center"><%= boolean_renderer(@opp.first.AFC__c) %></td></tr>
+          <tr><td>Tax</td><td class="text-center"><%= boolean_renderer(@opp.first.Tax__c) %></td></tr>
+          <tr><td>Geo Tracker</td><td class="text-center"><%= boolean_renderer(@opp.first.Geo_Tracker__c) %></td></tr>
+          <tr><td>Alquist Priolo</td><td class="text-center"><%= boolean_renderer(@opp.first.Alquist_Priolo__c) %></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <blockquote class="lightsteelblue">
+      <p>System Information</p>
+    </blockquote>
+    <div class="row">
+      <div class="col-md-6">
+        <table class="table table-bordered">
+          <tbody>
+            <tr><td>Created By</td><td><%= @opp.first.CreatedBy.Name %> -- <%= Time.safe_parse_and_format(@opp.first.CreatedDate, "%a %b %e %Y %l:%M%P") %></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-bordered">
+          <tbody>
+            <tr><td>Last Modified By</td><td><%= @opp.first.LastModifiedBy.Name %> -- <%= Time.safe_parse_and_format(@opp.first.LastModifiedDate, "%a %b %e %Y %l:%M%P") %></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+  <%= render :partial => 'contact_role' %>
+
+  <!-- For now we are commenting these out bcs we will use the comma separated lists created by the apex triggers -->
+    <%#= render :partial => 'job_property_assignments' %>
+
+    <%#= render :partial => 'brand_assignments' %>
+
+  <p><%= link_to 'Back', opportunities_path, :class=>'btn btn-default btn-sm' %></p>
+</div>

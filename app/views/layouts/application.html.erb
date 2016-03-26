@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RPC</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  
+  <%= javascript_include_tag "application" %>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+  <%= csrf_meta_tags %>
+
+  <%= yield :head %>
+
+  <%= favicon_link_tag 'logo.png', :size => '12x12', :class => 'shortcut icon' %>
+</head>
+<body>
+  <div class="container">
+      <ul class="nav nav-tabs">
+        <li>
+          <%= link_to root_path do %>
+            <span class="glyphicon glyphicon-home" aria-hidden="true"> Home</span>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to opportunities_path do %>
+            <span class="glyphicon glyphicon-dashboard" aria-hidden="true"> Opportunities</span>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to release_notes_path do %>
+            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"> Release Notes</span>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to news_path do %>
+            <i class="fa fa-newspaper-o">&nbsp;&nbsp;&nbsp;News</i>
+          <% end %>
+        </li>
+
+        <% if current_user %>
+          <li class="pull-right">
+            <%= link_to signout_path do %>
+              <span class="glyphicon glyphicon-log-out" aria-hidden="true"> Sign Out</span>
+            <% end %>
+          </li>
+          <li class="pull-right"><%= link_to current_user.name, "/users/#{current_user.id}", :style => "display:inline-block" %><%= current_user_image %></li>
+        <% else %>
+          <li class="pull-right">
+            <%= link_to '/auth/google_oauth2', :class => 'btn btn-block btn-google' do %>
+              <i class="fa fa-google"> SIGN IN</i>
+            <% end %>
+          </li>
+        <% end %>
+
+      </ul>
+
+      <% if flash[:notice] %>
+        <div class="alert alert-success">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <p class="text-center"><%= flash[:notice] %></p>
+        </div>
+      <% elsif flash[:error] %>
+        <div class="alert alert-danger">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <p class="text-center"><%= flash[:error] %></p>
+        </div>
+      <% elsif flash[:warning] %>
+        <div class="alert alert-warning">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <p class="text-cente"><%= flash[:warning] %></p>
+        </div>
+      <% end %>
+
+      <%= yield %>
+  </div>
+
+</body>
+</html>

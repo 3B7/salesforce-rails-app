@@ -1,0 +1,20 @@
+<% @results.in_groups_of(2, false).each do |article| %>
+    <div class="row">
+      <% if article[0] %>
+        <div class="col-md-6">
+          <div class="ny_times_boxes">
+            <h4><%= link_to article[0]['title'], article[0]['url'], :target => "_blank" %></h4>
+            <p><%= article[0]['abstract'].html_safe %></p>
+          </div>
+        </div>
+      <% end %>
+      <% if article[1] %>
+        <div class="col-md-6">
+          <div class="ny_times_boxes">
+            <h4><%= link_to article[1]['title'], article[1]['url'], :target => "_blank" %></h4>
+            <p><%= article[1]['abstract'].html_safe %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>

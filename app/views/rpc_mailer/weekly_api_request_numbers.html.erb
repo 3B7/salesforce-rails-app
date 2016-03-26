@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>
+      Hello, 
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <td>MAX API CALLS:</td><td><%= SALESFORCE_DAILY_API_REQUESTS_MAX %></td>
+        </tr>
+        <tr>
+          <td>API CALLS MADE:</td><td><%= Salesforce::Connection.api_requests_limit.DailyApiRequests.Remaining %></td>
+        </tr>
+        <tr>
+          <td>API CALLS REMAINING</td><td><%= Salesforce::Connection.api_requests_limit.DailyApiRequests.Max - Salesforce::Connection.api_requests_limits.DailyApiRequests %></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

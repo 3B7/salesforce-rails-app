@@ -1,0 +1,16 @@
+<% if @brands.first.nil? == false  %>
+  <div class="row">
+    <blockquote class="lightyellow">
+      <p>Brand</p>
+    </blockquote>
+    <table class="table table-bordered">
+      <tbody>
+        <% @brands.each do |brand| %>
+          <tr>
+            <td><%= brand.Brand__r.Name  %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+<% end %>

@@ -1,0 +1,673 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (11.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:39:00 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:39:00 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:39:36 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:39:36 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:40:31 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:40:31 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:40:49 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:40:49 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:41:07 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:41:07 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.9ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:41:13 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:41:13 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.9ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:44:48 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:44:48 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:44:48 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:44:48 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:44:48 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:44:48 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 11:44:48 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 11:44:48 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (2.0ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (10.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:19:04 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:19:04 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.6ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:29:38 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:29:38 PST -08:00]]
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:31:48 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:31:48 PST -08:00]]
+  [1m[35mSQL (1.3ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", 1], ["version_number", "0.1"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.9ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:33:49 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:33:49 PST -08:00]]
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", 1], ["version_number", "0.1"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.7ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (7.8ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "authorized" = 't' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Fri, 20 Nov 2015 12:36:58 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Fri, 20 Nov 2015 12:36:58 PST -08:00]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "authorized" = 'f' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (15.7ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:02:16 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:02:16 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.6ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:05:25 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:05:25 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.6ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:53:19 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:53:19 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:54:20 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:54:20 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:54:20 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:54:20 PST -08:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:54:20 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:54:20 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:54:20 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:54:20 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (3.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:56:57 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:56:57 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:56:57 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:56:57 PST -08:00]]
+  [1m[36m (34.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:56:57 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:56:57 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:56:57 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:56:57 PST -08:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (13.8ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:05 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:05 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:05 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:05 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:05 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:05 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:05 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:05 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:05 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:05 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:05 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:05 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (2.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:06 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:06 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:57:06 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:57:06 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.1ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 17:59:00 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 17:59:00 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (18.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:02:20 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:02:20 PST -08:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.1ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (1.3ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:42:33.295232', "updated_at" = '2015-12-20 02:42:33.295232' WHERE "users"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:42:33.310331', "updated_at" = '2015-12-20 02:42:33.310331' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.4ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:42:33.315497', "updated_at" = '2015-12-20 02:42:33.315497' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:42:33.318979', "updated_at" = '2015-12-20 02:42:33.318979' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:42:33.323137', "updated_at" = '2015-12-20 02:42:33.323137' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:42:33.325895', "updated_at" = '2015-12-20 02:42:33.325895' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:42:33.329433', "updated_at" = '2015-12-20 02:42:33.329433' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:42:33 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:42:33 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:42:33.332153', "updated_at" = '2015-12-20 02:42:33.332153' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (8.9ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:43:07 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:43:07 PST -08:00]]
+  [1m[35m (1.9ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:43:07.148938', "updated_at" = '2015-12-20 02:43:07.148938' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:43:07 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:43:07 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:43:07.163454', "updated_at" = '2015-12-20 02:43:07.163454' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (2.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:43:07 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:43:07 PST -08:00]]
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:43:07.171813', "updated_at" = '2015-12-20 02:43:07.171813' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:43:07 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:43:07 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:43:07.175440', "updated_at" = '2015-12-20 02:43:07.175440' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:43:07 PST -08:00], ["email", "test@gasvaluation.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:43:07 PST -08:00]]
+  [1m[35m (0.5ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@gasvaluation.com', "ip_address" = '127.0.0.1', "authorized" = 't', "created_at" = '2015-12-20 02:43:07.179648', "updated_at" = '2015-12-20 02:43:07.179648' WHERE "users"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("access_token", "authorized", "created_at", "email", "expires", "image", "ip_address", "last_request_at", "name", "provider", "refresh_token", "salesforce_producer_id", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["access_token", nil], ["authorized", true], ["created_at", Sat, 19 Dec 2015 18:43:07 PST -08:00], ["email", "test@test.com"], ["expires", nil], ["image", nil], ["ip_address", "127.0.0.1"], ["last_request_at", nil], ["name", "Darth Vader"], ["provider", "google_oauth2"], ["refresh_token", nil], ["salesforce_producer_id", nil], ["uid", "123"], ["updated_at", Sat, 19 Dec 2015 18:43:07 PST -08:00]]
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "provider" = 'google_oauth2', "uid" = '123', "name" = 'Darth Vader', "email" = 'test@test.com', "ip_address" = '127.0.0.1', "authorized" = 'f', "created_at" = '2015-12-20 02:43:07.184596', "updated_at" = '2015-12-20 02:43:07.184596' WHERE "users"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.3ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "release_notes" ("body", "created_by_id", "version_number") VALUES (?, ?, ?)[0m  [["body", "When in the course of human events it becomes necessary..."], ["created_by_id", nil], ["version_number", "0.1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
